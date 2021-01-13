@@ -33,7 +33,7 @@ html, body {
     padding: 20px;
     border-radius: 20px;
     left: 4.225rem;
-    top: -13px;
+    top: -80px;
     background: #7D07F2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 20em; height: 3em;
@@ -67,7 +67,7 @@ header h1{
     width: 37.25rem;
     height: 19.875;
     left: 3.75rem;
-    top: -0.625rem;
+    top: -0.5em;
     
     
     
@@ -89,7 +89,7 @@ position: relative;;
 width: 403px;
 height: 56px;
 left: 70px;
-top: -90px;
+top: -3.255em;
 
 font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -106,7 +106,7 @@ position: relative;
 width: 564px;
 height: 45px;
 left: 70px;
-top: 40px;
+top: -30px;
 
 font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -123,7 +123,8 @@ aside .aluguel {
     position: relative;
     padding: 3em;
     width: 30em;
-    height: 30em;  
+    height: 30em;
+    right: -6.5em;;  
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     grid-area: aside;
 }
@@ -132,13 +133,18 @@ aside .aluguel {
 main {
     grid-area: main;
 
+    max-height: 450px;;
+
 }
 
 .container{
     display: flex;
     justify-content: space-between;
     margin: 3em;
-    padding: 2em;    
+    padding: 2em;
+    margin-top: -2em;
+
+
 
 }
 
@@ -202,7 +208,7 @@ height: 96px;
     border-radius: 10px;
     z-index: 10;
     background-color: #fff;
-    width: 500px;
+    width: 350px;
     max-width: 80%;
 }
 
