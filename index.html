@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script defer src="/js/script.js"></script>
+    <title>Dirija Bem - Aluguel de Veículos</title>
+</head>
+<body>
+    <div class="site">
+    <header>
+        <h1>DIRIJA BEM</h1>
+        <h2>Alugueis de Carros</h2>              
+    </header>
+
+    <aside>
+        <img class="aluguel"  src="/assets/rental.svg" alt="aluguel">
+    </aside>
+    
+
+    <main>
+
+        <button class="btn-alugar" data-screen-target="#screen">ALUGAR AGORA</button>
+        
+        <h3>Veja como é fácil alugar um carro:</h3>
+
+        <div class="container">
+
+       
+    
+            <div class="rectangle">
+                <img class="dados"  src="/assets/man.svg" alt="dados">
+                <h4>Seus dados</h4>
+                <p>Preencha com seus dados</p>
+            </div>
+        
+            <div class="rectangle">
+                <img class="lugar"  src="/assets/place.svg" alt="lugar">
+                <h4>Localização</h4>
+                <p>Escolha onde receber</p>
+            </div>
+        
+            <div class="rectangle">
+                <img class="carro"  src="/assets/car.svg" alt="carro">
+                <h4>Carro</h4>
+                <p>Selecione o veículo</p>
+            </div>
+        </div>
+      
+
+    </main>
+
+    <div class="screen" id="screen">
+        <div class="screen-header">
+            <dic class="title">Preencha o formulário e garanta o seu veículo:</dic>
+            <button data-close-button class="close-button">&times;</button>
+
+        </div>
+        <div class="screen-body">
+            <form >
+                <p>Seus dados:</p>
+                <input type="text" name="nome" id="nome" maxlength="50" placeholder="Nome completo">
+                <input type="tel" name="telefone" id="telefone" placeholder="Telefone"> 
+                <p>Onde e quando você deseja receber o veículo:</p>
+                <input type="text" name="onde" id="onde" placeholder="Local">
+                <input type="date" name="" id="">            
+                <p>Selecione o veículo:</p>
+               
+                <input type="marca" name="marca" id="marca" maxlength="20" placeholder="Marca">
+      
+                
+                <input type="text" name="veiculo" id="veiculo" maxlength="20" placeholder="Modelo">
+                <br>
+                <br>
+                
+                <input type="text" name="valor" id="valor" maxlength="20" placeholder="Valor" >
+   
+               
+                <input type="text" name="km" id="km" maxlength="20" placeholder="KM">
+                <br>
+                <br>
+                <button class="enviar">Enviar pedido</button >
+                <br>
+                <br>
+            </form>
+            
+
+        </div>
+    </div>
+    <div id="overlay"></div>
+
+
+    
+</body>
+</html>
