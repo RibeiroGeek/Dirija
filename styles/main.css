@@ -299,7 +299,7 @@ color: #AB05F2;
 body{
     margin: 0;
     padding: 0;
-    width: 500px;
+    max-width: 500px;
 }
 
 
@@ -345,13 +345,33 @@ color: #AB05F2;
 
 }
 
+main h3{
+    position: relative;
+    width: 564px;
+    height: 45px;
+    left: 65px;
+    top: 30px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #7D07F2;
+    
+    
+    }
+
 aside {
     grid-column-start: aside;
 }
 
 aside .aluguel {
-    width: 15em;
-    height: 15em;
+    width: 24em;
+    height: 24em;
+    right: -12px;
+
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     grid-area: aside;
 }
@@ -370,21 +390,48 @@ main .container .rectangle{
     margin-left: 40%;
 }
 
-main  a{    
+main .btn-alugar{    
     position: relative;
-    padding: 15px;
-    border-radius: 3px;
-    left: 43%;
-    top: -60px;
-    background: white;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 20px;
+    left: 4rem;
+    top: 20px;
+    background: #7D07F2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 5em;
-    height: 10em;
+    width: 20em; height: 3em;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 
+}
+
+.screen-body button{
+    position: relative;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4x 4px;
+    border-radius: 20px;
+    background: #7D07F2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 15em; height: 2em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+
+.screen-body button:hover{
+    background: #097DE8;
+    transition: 250ms;
 }
 
 }
